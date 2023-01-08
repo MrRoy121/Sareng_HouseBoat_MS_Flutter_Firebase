@@ -1,16 +1,19 @@
-# sareng
+# Sareng Houseboat Management System
 
-A new Flutter project.
+Sareng Houseboat Management System is a comprehensive application built with Flutter and Firebase, designed to streamline the management and booking of houseboats. The system features two main modules: Admin and User.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Admin Module
+- **CRUD Operations for Houseboats**: Admins can create, read, update, and delete houseboat details.
+- **Boat Details Management**: Admins can manage boat details such as name, type, capacity, amenities, and pricing.
+- **Package Management**: Admins can create and manage different packages available for booking.
 
-A few resources to get you started if this is your first Flutter project:
+### User Module
+- **Houseboat Selection**: Users can browse and select houseboats based on their preferences.
+- **Check Availability**: Users can check the availability of houseboats for their desired dates.
+- **Booking System**: Users can book houseboats for specific dates and choose from available packages.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+- **Frontend**: Flutter
+- **Backend**: Firebase
